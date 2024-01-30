@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+ 
+
+
+    .container{
+        background-color: #fff;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    nav{
+        
+    background: #eee9ee;
+    border-radius: 30px;
+    padding: 9px;
+    box-shadow: 0 25px 20px -20px rgb(0,0,0,0.4);
+    }
+
+    nav ul li{
+        list-style: none;
+        display: inline-grid;
+        padding: 13px 35px;
+        margin: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #292828;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+        transition: color 0.3s;
+
+    }
+    nav ul li:hover::after{
+        top: 50%;
+        opacity: 1;
+    }
+
+
+
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 150px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 20px;
+    }
+    
+    
+    .info{
+        text-align: justify;
+    }
+
+
+    h1{
+        text-align: center;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 150px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 20px;
+    }
+    
+    .nombre{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .info{
+        text-align: justify;
+    }
